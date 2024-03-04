@@ -1,0 +1,320 @@
+*{
+   margin: 0;
+   padding:0;
+   box-sizing: border-box;
+}
+
+header{
+   background-color: greenyellow;
+   position: relative ;
+   padding: 50px;
+   position: fixed;
+   top:0;
+   left: 0;
+   width: 100%;
+   z-index: 3000;
+   margin-bottom: 20px;
+   width: 100%;
+}
+
+nav li{
+   display: inline;
+   list-style: none;
+   margin: 0px 10px;
+}
+
+section{
+   margin: 100px 0px;
+}
+ 
+ nav{
+   position: absolute;
+   right: 10px;
+
+   display:flex;
+   flex-direction: row;
+   position: fixed;
+   width: 100%;
+   height: 10%;
+   top: 70px;
+   left: 430px;
+   z-index: 2000;
+}
+ 
+.titulo_principal{
+   color: blue;
+   text-align: left;
+   font-size: 50px;
+   background-color: greenyellow;
+   font-family: 'Ubuntu', sans-serif;
+   position: absolute;
+   top: 5px;
+   left: 20px;
+}
+
+.subtitulogeneral{
+   text-align: left;
+   background-color: greenyellow;
+   font-family: 'Titillium Web', sans-serif;
+   color: black;
+   position: absolute;
+   top: 60px;
+   left: 40px;
+}
+
+ body{
+   background-color: black;
+   color: white;
+ }
+ 
+ .juegos{
+    color:red;
+ }
+ 
+ li{
+    list-style: none;
+ }
+ 
+ a{
+    text-decoration: none;
+ }
+ 
+ footer{
+    background-color: red;
+ }
+ 
+ .redes{
+    text-align: center;
+ }
+ 
+ .pregunta{
+    text-align: center;
+ }
+ 
+ .icono1{
+   color: green;
+}
+
+.icono2{
+   color: blue;
+}
+
+.icono3{
+   color: red;
+}
+
+.iconofacebook{
+   color: blue;
+}
+
+.iconotwitter{
+   color: aqua;
+}
+
+.iconoinstagram{
+   color: orangered;
+}
+  
+.entrada{
+   background-color: #bdbdbd;
+   max-width: 800px;
+   margin:50px auto;
+   border: 2px solid;
+   border-radius: 15px;
+   text-align: center;
+   padding: 25px;
+   margin-top: 200px;
+}
+
+.switch{
+   color: black;
+}
+
+.smo{
+   border: 2px solid;
+   width: 250px;
+   background-color: white;
+   color: black;
+   margin: 25px 20px;
+   text-align: center;
+   max-width: 300px;
+   border-radius: 25px;
+   color: beige;
+
+   background-color: #0f150f;
+  max-width: 800px;
+  margin:50px auto;
+  border: 2px solid;
+  border-radius: 15px;
+  text-align: center;
+  padding: 25px;
+}
+
+.foto_smo{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   border-radius: 25px;
+}
+
+.ssb{
+   border: 2px solid;
+   width: 250px;
+   background-color: white;
+   color: black;
+   margin: 25px 20px;
+   text-align: center;
+   max-width: 300px;
+   border-radius: 25px;
+   color: beige;
+
+   background-color: #0f150f;
+  max-width: 800px;
+  margin:50px auto;
+  border: 2px solid;
+  border-radius: 15px;
+  text-align: center;
+  padding: 25px;
+}
+
+.foto_ssb{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   border-radius: 25px;
+}
+
+.mk8{
+   border: 2px solid;
+   width: 250px;
+   background-color: white;
+   color: black;
+   margin: 25px 20px;
+   text-align: center;
+   max-width: 300px;
+   border-radius: 25px;
+   color: beige;
+
+   background-color: #0f150f;
+  max-width: 800px;
+  margin:50px auto;
+  border: 2px solid;
+  border-radius: 15px;
+  text-align: center;
+  padding: 25px;
+}
+
+.foto_mk8{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   border-radius: 25px;
+}
+
+.animal{
+   border: 2px solid;
+   width: 250px;
+   background-color: white;
+   color: black;
+   margin: 25px 20px;
+   text-align: center;
+   max-width: 300px;
+   border-radius: 25px;
+   color: beige;
+
+   background-color: #0f150f;
+  max-width: 800px;
+  margin:50px auto;
+  border: 2px solid;
+  border-radius: 15px;
+  text-align: center;
+  padding: 25px;
+}
+
+.foto_animal{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   border-radius: 25px;
+}
+
+.tloz{
+   border: 2px solid;
+   width: 250px;
+   background-color: white;
+   color: black;
+   margin: 25px 20px;
+   text-align: center;
+   max-width: 300px;
+   border-radius: 25px;
+   color: beige;
+
+   background-color: #0f150f;
+  max-width: 800px;
+  margin:50px auto;
+  border: 2px solid;
+  border-radius: 15px;
+  text-align: center;
+  padding: 25px;
+}
+
+.foto_tloz{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   border-radius: 25px;
+}
+
+.hollow{
+   border: 2px solid;
+   width: 250px;
+   background-color: white;
+   color: black;
+   margin: 25px 20px;
+   text-align: center;
+   max-width: 300px;
+   border-radius: 25px;
+   color: beige;
+
+   background-color: #0f150f;
+  max-width: 800px;
+  margin:50px auto;
+  border: 2px solid;
+  border-radius: 15px;
+  text-align: center;
+  padding: 25px;
+}
+
+.foto_hollow{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   border-radius: 25px;
+}
+
+.mario_maker{
+   border: 2px solid;
+   width: 250px;
+   background-color: white;
+   color: black;
+   margin: 25px 20px;
+   text-align: center;
+   max-width: 300px;
+   border-radius: 25px;
+   color: beige;
+
+   background-color: #0f150f;
+  max-width: 800px;
+  margin:50px auto;
+  border: 2px solid;
+  border-radius: 15px;
+  text-align: center;
+  padding: 25px;
+}
+
+.foto_mario_maker{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   border-radius: 25px;
+}

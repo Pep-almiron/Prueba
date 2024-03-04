@@ -1,0 +1,419 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+@media (min-width: 800px){
+
+        body{
+            background-color: black;
+        }
+    }
+
+@media (max-width: 799px){
+
+        body{
+           background-color: #0f150f;
+        }
+    }
+
+header{
+    background-color: greenyellow;
+    position: relative ;
+    padding: 50px;
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    z-index: 3000;
+    margin-bottom: 20px;
+    height: 10%;
+    display:flex;
+    flex-direction: row;
+}
+
+section{
+    margin: 100px 0px;
+}
+
+nav li{
+    display: inline;
+    list-style: none;
+    margin: 0px 10px;
+}
+
+nav{
+    position: absolute;
+    right: 10px;
+
+    display:flex;
+    flex-direction: row;
+    position: fixed;
+    width: 100%;
+    height: 10%;
+    top: 70px;
+    left: 430px;
+    z-index: 2000;
+}
+
+body{
+    color: white;
+    background-color: black;
+    width: 100%;
+}
+
+.titulo_principal{
+    color: blue;
+    text-align: left;
+    font-size: 50px;
+    background-color: greenyellow;
+    font-family: 'Ubuntu', sans-serif;
+    position: absolute;
+    top: 5px;
+    left: 20px;
+}
+
+.subtitulogeneral{
+    text-align: left;
+    background-color: greenyellow;
+    font-family: 'Titillium Web', sans-serif;
+    color: black;
+    position: absolute;
+    top: 60px;
+    left: 40px;
+}
+
+li{
+    list-style: none;
+}
+
+.mejores{
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+footer{
+    background-color: red;
+}
+
+.Contactanos{
+    text-align: center;
+    font-size:  15px;  
+}
+
+.redes{
+    text-align: center;
+}
+
+.icono1{
+    color: green;
+}
+
+.icono2{
+    color: blue;
+}
+
+.icono3{
+    color: red;
+}
+
+.iconofacebook{
+    color: blue;
+}
+
+.iconotwitter{
+    color: aqua;
+}
+
+.iconoinstagram{
+    color: orangered;
+}
+
+.boton1{
+    border-radius: 5px;
+    background-color: #0f150f;
+    color: white;
+    
+    padding:  10px 5px;
+    cursor: pointer;
+    border: none;
+    margin: 2px;
+    transition-property:all;
+    transition-duration: 0.5s;
+    transition-timing-function:ease-in;
+}
+
+.boton1:hover{
+    border-radius: 30% 30%;
+    background-color: green;
+}
+
+.boton2{
+    border-radius: 5px;
+    background-color: #0f150f;
+    color: white;
+    
+    padding:  10px 5px;
+    cursor: pointer;
+    border: none;
+    margin: 2px;
+    transition-property:all;
+    transition-duration: 0.5s;
+    transition-timing-function:ease-in;
+}
+
+.boton2:hover{
+    border-radius: 30% 30%;
+    background-color: blue;
+}
+
+.boton3{
+    border-radius: 5px;
+    background-color: #0f150f;
+    color: white;
+    
+    padding:  10px 5px;
+    cursor: pointer;
+    border: none;
+    margin: 2px;
+    transition-property:all;
+    transition-duration: 0.5s;
+    transition-timing-function:ease-in;
+}
+
+.boton3:hover{
+    border-radius: 30% 30%;
+    background-color: red;
+}
+
+.entrada{
+    background-color: darkslategrey;
+    max-width: 800px;
+    margin:50px auto;
+    border: 2px solid;
+    border-radius: 15px;
+    text-align: center;
+    padding: 25px;
+    margin-top: 150px;
+ }
+
+ .elden{
+    border: 2px solid;
+    width: 250px;
+    background-color: white;
+    color: black;
+    margin: 25px 20px;
+    text-align: center;
+    max-width: 300px;
+    border-radius: 25px;
+    color: beige;
+
+    background-color: #0f150f;
+    max-width: 800px;
+    margin:50px auto;
+    border: 2px solid;
+    border-radius: 15px;
+    text-align: center;
+    padding: 25px;
+}
+
+.foto_elden{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.eafc{
+    border: 2px solid;
+    width: 250px;
+    background-color: white;
+    color: black;
+    margin: 25px 20px;
+    text-align: center;
+    max-width: 300px;
+    border-radius: 25px;
+    color: beige;
+
+   background-color: #0f150f;
+   max-width: 800px;
+   margin:50px auto;
+   border: 2px solid;
+   border-radius: 15px;
+   text-align: center;
+   padding: 25px;
+}
+
+.foto_eafc{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.ssb{
+    border: 2px solid;
+    width: 250px;
+    background-color: white;
+    color: black;
+    margin: 25px 20px;
+    text-align: center;
+    max-width: 300px;
+    border-radius: 25px;
+    color: beige;
+
+    background-color: #0f150f;
+   max-width: 800px;
+   margin:50px auto;
+   border: 2px solid;
+   border-radius: 15px;
+   text-align: center;
+   padding: 25px;
+}
+
+.foto_ssb{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.forza{
+    border: 2px solid;
+    width: 250px;
+    background-color: white;
+    color: black;
+    margin: 25px 20px;
+    text-align: center;
+    max-width: 300px;
+    border-radius: 25px;
+    color: beige;
+
+    background-color: #0f150f;
+   max-width: 800px;
+   margin:50px auto;
+   border: 2px solid;
+   border-radius: 15px;
+   text-align: center;
+   padding: 25px;
+}
+
+.foto_forza{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.aitd{
+    border: 2px solid;
+    width: 250px;
+    background-color: white;
+    color: black;
+    margin: 25px 20px;
+    text-align: center;
+    max-width: 300px;
+    border-radius: 25px;
+    color: beige;
+
+    background-color: #0f150f;
+   max-width: 800px;
+   margin:50px auto;
+   border: 2px solid;
+   border-radius: 15px;
+   text-align: center;
+   padding: 25px;
+}
+
+.foto_aitd{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.tekken8{
+    border: 2px solid;
+    width: 250px;
+    background-color: white;
+    color: black;
+    margin: 25px 20px;
+    text-align: center;
+    max-width: 300px;
+    border-radius: 25px;
+    color: beige;
+
+    background-color: #0f150f;
+   max-width: 800px;
+   margin:50px auto;
+   border: 2px solid;
+   border-radius: 15px;
+   text-align: center;
+   padding: 25px;
+}
+
+.foto_tekken{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.persia{
+    border: 2px solid;
+    width: 250px;
+    background-color: white;
+    color: black;
+    margin: 25px 20px;
+    text-align: center;
+    max-width: 300px;
+    border-radius: 25px;
+    color: beige;
+
+    background-color: #0f150f;
+   max-width: 800px;
+   margin:50px auto;
+   border: 2px solid;
+   border-radius: 15px;
+   text-align: center;
+   padding: 25px;
+}
+
+.foto_persia{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.momo{
+    border: 2px solid;
+    width: 250px;
+    background-color: white;
+    color: black;
+    margin: 25px 20px;
+    text-align: center;
+    max-width: 300px;
+    border-radius: 25px;
+    color: beige;
+
+    background-color: #0f150f;
+   max-width: 800px;
+   margin:50px auto;
+   border: 2px solid;
+   border-radius: 15px;
+   text-align: center;
+   padding: 25px;
+}
+
+.foto_momo{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
